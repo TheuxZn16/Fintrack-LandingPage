@@ -1,4 +1,5 @@
 import Hero from './components/Hero';
+import HowItWorks from './components/HowItWorks';
 import Profits from './components/Profits';
 
 function App() {
@@ -6,6 +7,7 @@ function App() {
 		<div className="bg-background">
 			<Hero />
 			<Profits />
+			<HowItWorks />
 		</div>
 	);
 }
