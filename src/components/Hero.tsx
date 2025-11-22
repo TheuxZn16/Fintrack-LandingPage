@@ -1,8 +1,9 @@
 import { FaUser } from 'react-icons/fa';
+import { LuDownload } from 'react-icons/lu';
 
 function Hero() {
 	return (
-		<div
+		<section
 			className="p-3 pb-8"
 			style={{
 				background: 'linear-gradient(160deg, #E8F7F1, #fff)',
@@ -40,16 +41,16 @@ function Hero() {
 						</p>
 					</div>
 				</div>
-				<a href="@">
+				<a href="#EndCTA">
 					<button
 						type="button"
-						className="border border-gray-500 rounded-lg p-3 text-xl font-secondary-font font-semibold cursor-pointer hover:from-[#45cc7e] hover:to-[#77f2ab] bg-linear-to-br from-secondary to-primary"
+						className="flex cursor-pointer items-center gap-3 bg-primary text-white font-semibold py-4 px-8 rounded-2xl text-lg shadow-md hover:shadow-xl transition-all"
 					>
-						Baixar Agora
+						<LuDownload size={24} /> Baixar App Gratuitamente
 					</button>
 				</a>
 			</div>
-		</div>
+		</section>
 	);
 }
 

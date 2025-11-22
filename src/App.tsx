@@ -1,6 +1,8 @@
+import EndCTA from './components/EndCTA';
 import Hero from './components/Hero';
 import HowItWorks from './components/HowItWorks';
 import Profits from './components/Profits';
+import Reviews from './components/Reviews';
 
 function App() {
 	return (
@@ -8,6 +10,8 @@ function App() {
 			<Hero />
 			<Profits />
 			<HowItWorks />
+			<Reviews />
+			<EndCTA />
 		</div>
 	);
 }

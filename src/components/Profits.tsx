@@ -7,7 +7,7 @@ import {
 
 function Profits() {
 	return (
-		<div className="bg-[#F9FCFB] py-20 px-5">
+		<section className="bg-[#F9FCFB] py-20 px-5">
 			<div className="text-center mb-12">
 				<h1 className="text-5xl md:text-6xl font-bold font-primary-font text-text-primary">
 					Por que usar o FinTrack?
@@ -76,7 +76,7 @@ function Profits() {
 					</p>
 				</div>
 			</div>
-		</div>
+		</section>
 	);
 }
 
