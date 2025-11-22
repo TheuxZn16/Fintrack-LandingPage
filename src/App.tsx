@@ -1,4 +1,5 @@
 import EndCTA from './components/EndCTA';
+import Footer from './components/Footer';
 import Hero from './components/Hero';
 import HowItWorks from './components/HowItWorks';
 import Profits from './components/Profits';
@@ -12,6 +13,7 @@ function App() {
 			<HowItWorks />
 			<Reviews />
 			<EndCTA />
+			<Footer />
 		</div>
 	);
 }
