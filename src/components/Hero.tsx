@@ -3,14 +3,14 @@ import { FaUser } from 'react-icons/fa';
 function Hero() {
 	return (
 		<div
-			className="p-3"
+			className="p-3 pb-8"
 			style={{
 				background: 'linear-gradient(160deg, #E8F7F1, #fff)',
 			}}
 		>
 			<div>
 				<img
-					src="/public/logos/Logo1-png.png"
+					src="/logos/Logo1-png.png"
 					alt="Logo FinTrack"
 					className="md:h-14 h-8"
 				/>
@@ -28,7 +28,7 @@ function Hero() {
 				<div>
 					<img
 						className="w-96"
-						src="/public/logos/MockupCell.png"
+						src="/logos/MockupCell.png"
 						alt="Mockup da interface do app"
 					/>
 					<div className="p-1 bg-accent border border-gray-400 rounded-lg inline-block">
